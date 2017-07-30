@@ -1,4 +1,7 @@
-#pragma once
+#ifndef CXX
+#error "CXX macros not defined"
+#endif
+
 #pragma pop_macro("_CXX_CONCAT")
 #pragma pop_macro("_CXX_QUOTE")
 #pragma pop_macro("CXX")

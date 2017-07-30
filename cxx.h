@@ -1,4 +1,6 @@
-#pragma once
+#ifdef CXX
+#error "CXX macros already defined"
+#endif
 
 //------------------------------------------------------------------------------
 
