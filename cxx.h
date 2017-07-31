@@ -51,6 +51,7 @@
     #define CXX_ID    msvc
     #define CXX_MSVC  (_MSC_VER)
     #define CXX_NAME  "MSVC " CXX_QUOTE(_MSC_FULL_VER)
+    #include <ciso646> // standard C++ operator names
 
 #else
 
